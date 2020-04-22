@@ -102,25 +102,6 @@ function updateAllData(chart, data) {
 }
 
 setTimeout(function() {
-  updateAllData(updatingChart, [5,2,6]);
-}, 3000);
-
-function updateConfig(chart, title) {
-  chart.options.title.text = title;
-  chart.update();
-}
-
-setTimeout(function() {
-  updateAllData(updatingChart, [5,2,6])
-  updateConfig(updatingChart, 'Medals by Women in JAPAN');
-}, 3000);
-
-function updateConfig(chart, data) {
-  chart.data.datasets[0].data = data;
-  chart.update();
-}
-
-setTimeout(function() {
   updateAllData(updatingChart, [60, 112, 71]);
 }, 3000);
 
@@ -130,7 +111,7 @@ function updateConfig(chart, title) {
 }
 
 setTimeout(function() {
-  updateConfig(updatingChart, 'Medals by women in USA');
+  updateConfig(updatingChart, 'Medals by women in AVERAGE');
 }, 3000);
 
 
