@@ -1,11 +1,7 @@
 body {
   font-family: Helvetica Neue, Arial, sans-serif;
   text-align: center;
-}
-
-.wrapper {
-  max-width: 800px;
-  margin: 50px auto;
+  padding: 25px;
 }
 
 h1 {
@@ -15,14 +11,16 @@ h1 {
 }
 
 h2 {
-  font-weight: 200;
   font-size: 0.9em;
   margin: 0 0 50px;
   color: #999;
 }
 
-a {
-  margin-top: 50px;
-  display: block;
-  color: #3e95cd;
+canvas {
+  max-height: 500;
 }
+
+hr {
+  margin: 50px 0;
+}
+
